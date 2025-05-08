@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#E0E0E0"/> <!-- 灰白色背景 -->
+            <corners
+                android:topLeftRadius="16dp"
+                android:topRightRadius="16dp"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp"/> <!-- 只设置上方两个角为圆角 -->
+            <padding android:left="16dp" android:top="8dp" android:right="16dp" android:bottom="8dp"/>
+            <gradient
+                android:startColor="#FAFAFA"
+                android:endColor="#E0E0E0"
+                android:angle="90"
+                android:type="linear"/> <!-- 阴影效果 -->
+        </shape>
+    </item>
+</selector>
+

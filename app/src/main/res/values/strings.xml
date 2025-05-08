@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Label Printer</string>
+    <string name="components">Components</string>
+    <string name="home">home</string>
+    <string name="print">Print</string>
+
+    <!-- components文件字符 -->
+    <string name="barcode_number">Barcode:</string>
+    <string name="qrcode_content">Qrcode:</string>
+    <string name="display_number">Number：</string>
+    <string name="current_content">Content：</string>
+    <string name="font_size">Font Size：</string>
+    <string name="line_spacing">Line Spacing：</string>
+    <string name="spacing">Spacing：</string>
+    <string name="alignment">Alignment：</string>
+    <string name="toggle_display_time">Usage Date：</string>
+    <string name="left">Left</string>
+    <string name="center">Center</string>
+    <string name="right">Right</string>
+    <string name="font_style">Style:</string>
+    <string name="bold">B</string>
+    <string name="italic">I</string>
+    <string name="underline">U</string>
+    <string name="no_content_tip">Please touch the upper tag element to start editing.</string>
+
+    <!-- dialog文件字符 -->
+    <string name="back">Back</string>
+    <string name="clear">Clear</string>
+    <string name="confirm">Enter</string>
+
+    <string name="home_edit_label">Edit</string>
+    <string name="home_pdf_print">PDF</string>
+    <string name="home_price_print">Product</string>
+    <string name="home_receipt_print">Receipt</string>
+    <string name="home_picture_print">Photo</string>
+
+    <!-- fragment模板文件字符 -->
+    <string name="template_all">ALL</string>
+    <string name="template_clothing">Clothing</string>
+    <string name="template_shoes_bags">Shoes-Bags</string>
+    <string name="template_food">Food</string>
+    <string name="template_jewelry">Jewelry</string>
+    <string name="template_appliances">Appliances</string>
+    <string name="template_baby">Baby</string>
+    <string name="template_retail">Retail</string>
+    <string name="template_student">Student</string>
+    <string name="template_logistics">Logistics</string>
+    <string name="template_pickup_code">Pickup-Code</string>
+    <string name="template_general">General</string>
+    <string name="template_others">Others</string>
+    <string name="no_data">———— No More ————</string>
+
+    <!-- activity_edit 文件字符 -->
+    <string name="edit_activity_tip">Please select a template to edit</string>
+
+    <!-- activity_pdfactivity 文件字符 -->
+    <string name="pdf_activity_import">Import PDF File</string>
+
+    <!-- fragment"我的"文件字符 -->
+    <string name="more_template_number">Number：</string>
+    <string name="more_official_website">Official Website</string>
+    <string name="more_print_alignment">Print Alignment</string>
+    <string name="more_print_density">Print Density</string>
+    <string name="more_language_settings">Language Settings</string>
+    <string name="more_version">Version</string>
+
+    <string name="select_language">Select Language</string>
+
+    <string name="select_print_alignment">Print Alignment</string>
+    <string name="print_alignment_left">Align to the left</string>
+    <string name="print_alignment_center">Align to the center</string>
+    <string name="print_alignment_right">Align to the right</string>
+</resources>

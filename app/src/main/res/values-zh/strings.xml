@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">标签打印</string>
+    <string name="components">组件</string>
+    <string name="home">主页</string>
+    <string name="print">打印</string>
+
+    <!-- components文件字符 -->
+    <string name="barcode_number">条形码数字：</string>
+    <string name="qrcode_content">二维码内容:</string>
+    <string name="display_number">显示数字：</string>
+    <string name="current_content">当前内容：</string>
+    <string name="font_size">字体大小：</string>
+    <string name="line_spacing">行距：</string>
+    <string name="spacing">间距：</string>
+    <string name="alignment">对齐：</string>
+    <string name="toggle_display_time">使用日期：</string>
+    <string name="left">左</string>
+    <string name="center">中</string>
+    <string name="right">右</string>
+    <string name="font_style">样式：</string>
+    <string name="bold">B</string>
+    <string name="italic">I</string>
+    <string name="underline">U</string>
+    <string name="no_content_tip">请触摸上方标签元素开始编辑。</string>
+
+    <!-- dialog文件字符 -->
+    <string name="back">返回</string>
+    <string name="clear">清除</string>
+    <string name="confirm">确定</string>
+
+    <!-- home fragment文件字符 -->
+    <string name="home_edit_label">编辑标签</string>
+    <string name="home_pdf_print">PDF打印</string>
+    <string name="home_price_print">价签打印</string>
+    <string name="home_receipt_print">小票打印</string>
+    <string name="home_picture_print">照片打印</string>
+
+    <!-- fragment”模板“文件字符 -->
+    <string name="template_all">全部</string>
+    <string name="template_clothing">服装</string>
+    <string name="template_shoes_bags">鞋包</string>
+    <string name="template_food">食品</string>
+    <string name="template_jewelry">珠宝</string>
+    <string name="template_appliances">家电</string>
+    <string name="template_baby">母婴</string>
+    <string name="template_retail">零售</string>
+    <string name="template_student">学生</string>
+    <string name="template_logistics">物流</string>
+    <string name="template_pickup_code">取货码</string>
+    <string name="template_general">通用</string>
+    <string name="template_others">其他</string>
+    <string name="no_data">———— 没有更多 ————</string>
+
+    <!-- EditActivity 文件字符 -->
+    <string name="edit_activity_tip">请选择模板进行编辑</string>
+
+    <!-- activity_pdfactivity 文件字符 -->
+    <string name="pdf_activity_import">导入PDF文件</string>
+
+    <!-- fragment"我的"文件字符 -->
+    <string name="more_template_number">模板数量：</string>
+    <string name="more_official_website">访问官网</string>
+    <string name="more_print_alignment">打印对齐</string>
+    <string name="more_print_density">打印浓度</string>
+    <string name="more_language_settings">语言设置</string>
+    <string name="more_version">版本号</string>
+
+    <string name="select_language">选择语言</string>
+
+    <string name="select_print_alignment">打印对齐</string>
+    <string name="print_alignment_left">左对齐</string>
+    <string name="print_alignment_center">居中对齐</string>
+    <string name="print_alignment_right">右对齐</string>
+</resources>

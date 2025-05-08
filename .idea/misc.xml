@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/drawable-v24/components_tv_bg.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/drawable-v24/home_image.xml" value="0.1555" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.196" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/drawable-v24/test_2.xml" value="0.166" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/drawable/black_border.xml" value="0.1305" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/drawable/button_background.xml" value="0.1685" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/drawable/button_background_1.xml" value="0.1305" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/drawable/button_background_2.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/drawable/button_background_3.xml" value="0.228" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/drawable/button_bg.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/drawable/button_bg_1.xml" value="0.1815" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/drawable/button_bg_2.xml" value="0.1815" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/drawable/button_pdf_bg.xml" value="0.103" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/drawable/content_contaier_background.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/drawable/dialog_background.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/drawable/ic_launcher_background.xml" value="0.196" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/drawable/linearlayout_background_3.xml" value="0.196" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/drawable/view_bg_0.xml" value="0.114" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/activity_edit.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/activity_home_photo.xml" value="0.1282051282051282" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/activity_home_receipt.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/activity_new.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/activity_pdfactivity.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/activity_price_label.xml" value="0.11235955056179775" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/components.xml" value="0.3333333333333333" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/dialog_barcode.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/dialog_components.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/dialog_edit.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/dialog_format.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/edit_print.xml" value="0.2259963768115942" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/edit_print_components.xml" value="0.17274569402228976" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/fragment_1.xml" value="0.17274569402228976" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/fragment_2.xml" value="0.17274569402228976" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/fragment_3.xml" value="0.17274569402228976" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/fragment_4.xml" value="0.17274569402228976" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/fragment_home.xml" value="0.3333333333333333" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/fragment_more.xml" value="0.18565400843881857" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/image_pair_1.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/item_image_slider.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/listview.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/main_template.xml" value="0.22" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/preview_layout.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/print.xml" value="0.19067028985507245" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/print_main.xml" value="0.21331521739130435" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/tb_1.xml" value="0.3333333333333333" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/tb_2.xml" value="0.22" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/tempfile_1745573526691.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_0.xml" value="0.1651469098277609" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_1.xml" value="0.5" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_2.xml" value="0.16666666666666666" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_3.xml" value="0.5" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_4.xml" value="0.4466666666666667" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_5.xml" value="0.11752786220871327" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_6.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_7.xml" value="0.3333333333333333" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_8.xml" value="0.14716312056737588" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_Receipt_0.xml" value="0.10157041540020263" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_clothing_0.xml" value="0.1334853090172239" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_clothing_1.xml" value="0.1334853090172239" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_general_0.xml" value="0.13677811550151975" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_general_1.xml" value="0.13221884498480244" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_initialization.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_item.xml" value="0.22" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_listview.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_logistics_0.xml" value="0.4466666666666667" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_logistics_1.xml" value="0.13677811550151975" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_nomal.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_pickup_code_0.xml" value="0.3333333333333333" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_receipt_0.xml" value="0.4466666666666667" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/template_shoes_bags_0.xml" value="0.12715298885511653" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/test.xml" value="0.1" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/text_view_1.xml" value="0.1651469098277609" />
+        <entry key="..\:/projects/LabelPrinter/app/src/main/res/layout/text_view_2.xml" value="0.11388888888888889" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

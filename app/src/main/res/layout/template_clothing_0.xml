@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="370px"
+    android:layout_height="317px"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/QRCode_view"
+            android:layout_width="150px"
+            android:layout_height="150px" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="衣心衣意服饰"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20px"
+                android:text="个性/时尚"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20px"
+                android:text="扫一扫关注"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv10"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv12"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv13"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv14"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv15"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv16"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/Barcode_view"
+            android:layout_width="0px"
+            android:layout_height="0px" />
+        <TextView
+            android:id="@+id/tv0"
+            android:layout_width="0px"
+            android:layout_height="0px" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -59,7 +59,7 @@ public class TemplateAdapter extends BaseAdapter {
         // 获取当前项的数据
         int itemIndex1 = getIndexOf(Constant.All_TEMPLATE_LAYOUTS, items[position * 2]); // 第一个项在All_TEMPLATE_LAYOUTS的索引
         int itemIamgeId1 = Constant.All_TEMPLATE_IMAGES[itemIndex1];
-        String itemSize1 = Constant.All_TEMPLATE_LAYOUT_SIZES_STRING[itemIndex1];
+        String itemSize1 = Constant.All_TEMPLATE_LAYOUT_SIZES[itemIndex1] [0]+ "mmx" + Constant.All_TEMPLATE_LAYOUT_SIZES[itemIndex1] [1]+ "mm";
         Log.d(TAG, "getView: " + itemSize1);
 
         // 设置数据到布局中
@@ -74,7 +74,7 @@ public class TemplateAdapter extends BaseAdapter {
             // 获取当前项的数据
             int itemIndex2 = getIndexOf(Constant.All_TEMPLATE_LAYOUTS, items[position * 2 + 1]); // 第二个项在All_TEMPLATE_LAYOUTS的索引
             int itemIamgeId2 = Constant.All_TEMPLATE_IMAGES[itemIndex2];
-            String itemSize2 = Constant.All_TEMPLATE_LAYOUT_SIZES_STRING[itemIndex2];
+            String itemSize2 = Constant.All_TEMPLATE_LAYOUT_SIZES[itemIndex2] [0]+ "mmx" + Constant.All_TEMPLATE_LAYOUT_SIZES[itemIndex2] [1]+ "mm";
 
             // 设置数据到布局中
             ImageView imageView2 = linearLayout2.findViewById(R.id.imageView2);

@@ -50,7 +50,7 @@
     <string name="template_pickup_code">取货码</string>
     <string name="template_general">通用</string>
     <string name="template_others">其他</string>
-    <string name="no_data">———— 没有更多 ————</string>
+    <string name="no_data">———— 实在没有了 ————</string>
 
     <!-- EditActivity 文件字符 -->
     <string name="edit_activity_tip">请选择模板进行编辑</string>

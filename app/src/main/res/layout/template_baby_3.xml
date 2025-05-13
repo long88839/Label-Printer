@@ -6,22 +6,11 @@
     android:orientation="vertical"
     android:layout_gravity="center">
 
-    <TextView
-        android:id="@+id/tv1"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:textSize="35px"
-        android:layout_marginTop="10px"
-        android:layout_marginBottom="10px"
-        android:text="德邦物流"
-        android:textStyle="bold" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="5"
+        android:gravity="center"
         android:orientation="horizontal">
         <LinearLayout
             android:layout_width="wrap_content"
@@ -31,7 +20,8 @@
                 android:id="@+id/tv2"
                 android:layout_width="wrap_content"
                 android:layout_height="60px"
-                android:text="品名："
+                android:text="品牌："
+                android:textStyle="bold"
                 android:textSize="30px"
                 android:gravity="center"
                 />
@@ -39,7 +29,8 @@
                 android:id="@+id/tv3"
                 android:layout_width="wrap_content"
                 android:layout_height="60px"
-                android:text="规格："
+                android:text="品名："
+                android:textStyle="bold"
                 android:textSize="30px"
                 android:gravity="center"
                 />
@@ -48,7 +39,8 @@
                 android:id="@+id/tv4"
                 android:layout_width="wrap_content"
                 android:layout_height="60px"
-                android:text="数量："
+                android:text="型号："
+                android:textStyle="bold"
                 android:textSize="30px"
                 android:gravity="center"
                 />
@@ -56,7 +48,8 @@
                 android:id="@+id/tv5"
                 android:layout_width="wrap_content"
                 android:layout_height="60px"
-                android:text="日期："
+                android:text="规格："
+                android:textStyle="bold"
                 android:textSize="30px"
                 android:gravity="center"
                 />
@@ -74,7 +67,8 @@
                     android:id="@+id/tv6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx"
+                    android:text="迪马"
+                    android:textStyle="bold"
                     android:textSize="30px"
                     android:gravity="left"
                     />
@@ -89,7 +83,8 @@
                     android:id="@+id/tv7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx"
+                    android:text="卡通高景观婴儿推车"
+                    android:textStyle="bold"
                     android:textSize="30px"
                     android:gravity="left"
                     />
@@ -103,7 +98,8 @@
                     android:id="@+id/tv8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx"
+                    android:text="13-8B"
+                    android:textStyle="bold"
                     android:textSize="30px"
                     android:gravity="left"
                     />
@@ -114,17 +110,53 @@
                 android:layout_height="60px"
                 android:gravity="center">
                 <TextView
-                    android:id="@+id/tv9"
+                    android:id="@+id/tv1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="xxxxxxxxxx"
+                    android:text="卡通定制 萌粉"
+                    android:textStyle="bold"
                     android:textSize="30px"
                     android:gravity="left"
                     />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="3"
+        android:orientation="vertical">
 
+        <ImageView
+            android:id="@+id/Barcode_view"
+            android:layout_width="wrap_content"
+            android:layout_height="0px"
+            android:layout_gravity="center"
+            android:layout_marginTop="4px"
+            android:layout_weight="4"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/tv0"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_marginBottom="4px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:letterSpacing="0.3"
+            android:text="123456789"
+            android:textStyle="bold"
+            android:textSize="15px"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:gravity="center"
+        />
     <TextView
         android:id="@+id/tv10"
         android:layout_width="0px"
@@ -167,6 +199,7 @@
         android:layout_height="0px"
         android:gravity="center"
         />
+
     <TextView
         android:id="@+id/tv17"
         android:layout_width="0px"
@@ -191,19 +224,6 @@
         android:layout_height="0px"
         android:gravity="center"
         />
-    <LinearLayout
-        android:layout_width="0px"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <ImageView
-            android:id="@+id/Barcode_view"
-            android:layout_width="0px"
-            android:layout_height="0px" />
-        <TextView
-            android:id="@+id/tv0"
-            android:layout_width="0px"
-            android:layout_height="0px" />
-    </LinearLayout>
 
     <ImageView
         android:id="@+id/QRCode_view"

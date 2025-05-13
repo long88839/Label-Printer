@@ -11,6 +11,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.Paint;
 import android.graphics.Typeface;
@@ -21,6 +22,7 @@ import android.util.Log;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -53,7 +55,7 @@ public class EditPrintActivity extends AppCompatActivity implements View.OnClick
     private Button editButton;
     private Button print;
 
-    private TextView[] textViews = new TextView[17];
+    private TextView[] textViews = new TextView[21];
     private ImageView Barcode_view;
     private ImageView QRCode_view;
 
@@ -248,14 +250,21 @@ public class EditPrintActivity extends AppCompatActivity implements View.OnClick
     private void initLayout() {
         // 获取传递的imageViewType值
         layoutViewID = getIntent().getIntExtra("linearLayout_id", 0);
-        sizeWidth = Constant.All_TEMPLATE_LAYOUT_SIZES[layoutViewID][0];
-        sizeHeight = Constant.All_TEMPLATE_LAYOUT_SIZES[layoutViewID][1];
+        sizeWidth = mmToPx(Constant.All_TEMPLATE_LAYOUT_SIZES[layoutViewID][0]);
+        sizeHeight = mmToPx(Constant.All_TEMPLATE_LAYOUT_SIZES[layoutViewID][1]);
         // 根据imageViewType值动态包含布局
         includeLayout(Constant.All_TEMPLATE_LAYOUTS[layoutViewID]);
     }
 
+    private static int mmToPx(float mm) {
+        return (int) (mm * Resources.getSystem().getDisplayMetrics().xdpi / 25.4f);
+    }
+
     // 动态包含布局
     private void includeLayout(int layoutResId) {
+        editorContainer.getLayoutParams().width = sizeWidth;
+        editorContainer.getLayoutParams().height = sizeHeight;
+        editorContainer.requestLayout(); // 强制刷新布局
         editorContainer.removeAllViews(); // 清空editor_container中的所有视图
         LayoutInflater inflater = LayoutInflater.from(this);
         View includedLayout = inflater.inflate(layoutResId, editorContainer, true);
@@ -265,7 +274,8 @@ public class EditPrintActivity extends AppCompatActivity implements View.OnClick
                 R.id.tv0, R.id.tv1, R.id.tv2, R.id.tv3, R.id.tv4,
                 R.id.tv5, R.id.tv6, R.id.tv7, R.id.tv8, R.id.tv9,
                 R.id.tv10, R.id.tv11, R.id.tv12, R.id.tv13, R.id.tv14,
-                R.id.tv15, R.id.tv16
+                R.id.tv15, R.id.tv16, R.id.tv17, R.id.tv18, R.id.tv19,
+                R.id.tv20
         };
         for (int i = 0; i < textViewIds.length; i++) {
             textViews[i] = includedLayout.findViewById(textViewIds[i]);
@@ -386,6 +396,26 @@ public class EditPrintActivity extends AppCompatActivity implements View.OnClick
             case R.id.tv16:
                 dialogEditText.setText(textViews[16].getText());
                 editViewId = 16;
+                componentsDialog.show();
+                break;
+            case R.id.tv17:
+                dialogEditText.setText(textViews[17].getText());
+                editViewId = 17;
+                componentsDialog.show();
+                break;
+            case R.id.tv18:
+                dialogEditText.setText(textViews[18].getText());
+                editViewId = 18;
+                componentsDialog.show();
+                break;
+            case R.id.tv19:
+                dialogEditText.setText(textViews[19].getText());
+                editViewId = 19;
+                componentsDialog.show();
+                break;
+            case R.id.tv20:
+                dialogEditText.setText(textViews[20].getText());
+                editViewId = 20;
                 componentsDialog.show();
                 break;
             case R.id.components_btv:

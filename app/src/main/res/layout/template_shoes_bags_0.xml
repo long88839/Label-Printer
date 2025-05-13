@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="423px"
-    android:layout_height="317px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_gravity="center">
@@ -75,6 +75,7 @@
             android:gravity="center"
             android:letterSpacing="0.3"
             android:text="123456789"
+            android:textStyle="bold"
             android:textSize="15px"
             android:visibility="gone" />
     </LinearLayout>
@@ -159,6 +160,31 @@
         />
     <TextView
         android:id="@+id/tv16"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv17"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv18"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv19"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tv20"
         android:layout_width="0px"
         android:layout_height="0px"
         android:gravity="center"

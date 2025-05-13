@@ -8,70 +8,68 @@ public class Constant {
 
     // 所有模板的 layout id
     public static final int[] All_TEMPLATE_LAYOUTS = {
+            //通用
             R.layout.template_general_0,
             R.layout.template_general_1,
+            //鞋包
             R.layout.template_shoes_bags_0,
+            //物流
             R.layout.template_logistics_0,
+            R.layout.template_logistics_1,
+            //取件码
             R.layout.template_pickup_code_0,
+            //衣服
             R.layout.template_clothing_0,
             R.layout.template_clothing_1,
-            R.layout.template_logistics_1
+            //母婴
+            R.layout.template_baby_0,
+            R.layout.template_baby_1,
+            R.layout.template_baby_2,
+            R.layout.template_baby_3,
     };
-
-    // 所有模板的 layout id 对应的宽高
-//    public static final int[][] All_TEMPLATE_LAYOUT_SIZES = {
-//            {320, 160}, // 对应 template_general_0
-//            {320, 160}, // 对应 ltemplate_general_1
-//            {320, 240}, // 对应 template_shoes_bags_0
-//            {320, 400}, // 对应 template_logistics_0
-//            {320, 240}, // 对应 template_pickup_code_0
-//            {350, 240}, // 对应 template_clothing_0
-//            {350, 240}, // 对应 template_clothing_1
-//            {350, 320}  // 对应 template_logistics_1
-//    };
-
 
     // 所有模板的 layout id 对应的宽高（毫米转像素）
     public static final int[][] All_TEMPLATE_LAYOUT_SIZES = {
-            {mmToPx(35), mmToPx(20)},   // template_general_0 (40x20mm)
-            {mmToPx(35), mmToPx(20)},   // template_general_1
-            {mmToPx(40), mmToPx(30)},   // template_shoes_bags_0
-            {mmToPx(35), mmToPx(30)},   // template_logistics_0
-            {mmToPx(35), mmToPx(30)},   // template_pickup_code_0
-            {mmToPx(35), mmToPx(30)},   // template_clothing_0
-            {mmToPx(35), mmToPx(30)},   // template_clothing_1
-            {mmToPx(35), mmToPx(30)},    // template_logistics_1
-            {mmToPx(60), mmToPx(80)}    // template_logistics_1
+            //通用
+            {35,20},
+            {35,20},
+            //鞋包
+            {40,30},
+            //物流
+            {35,30},
+            {35,30},
+            //取件码
+            {35,30},
+            //衣服
+            {35,30},
+            {35,30},
+            //母婴
+            {40,30},
+            {40,30},
+            {40,30},
+            {55,37},
     };
-
-    private static int mmToPx(float mm) {
-        return (int) (mm * Resources.getSystem().getDisplayMetrics().xdpi / 25.4f);
-    }
-
-
-    // 所有模板的 layout id 对应的宽高
-    public static final String[] All_TEMPLATE_LAYOUT_SIZES_STRING = {
-            "35mm×20mm",  // template_general_0 (与 {mmToPx(35), mmToPx(20)} 对应)
-            "35mm×20mm",  // template_general_1
-            "40mm×30mm",  // template_shoes_bags_0
-            "35mm×30mm",  // template_logistics_0
-            "35mm×30mm",  // template_pickup_code_0
-            "35mm×30mm",  // template_clothing_0
-            "35mm×30mm",  // template_clothing_1
-            "35mm×30mm"   // template_logistics_1
-    };
-
 
     // 所有模板的 layout id 对应的图片
     public static final int[] All_TEMPLATE_IMAGES = {
+            //通用
             R.drawable.template_general_0,
             R.drawable.template_general_1,
+            //鞋包
             R.drawable.template_shoes_bags_0,
+            //物流
             R.drawable.template_logistics_0,
+            R.drawable.template_logistics_1,
+            //取件码
             R.drawable.template_pickup_code_0,
+            //衣服
             R.drawable.template_clothing_0,
             R.drawable.template_clothing_1,
-            R.drawable.template_logistics_1
+            //母婴
+            R.drawable.template_baby_0,
+            R.drawable.template_baby_1,
+            R.drawable.template_baby_2,
+            R.drawable.template_baby_3,
     };
 
     // 服饰模板的 layout id 对应的layout id
@@ -102,7 +100,10 @@ public class Constant {
 
     // 母婴模板的 layout id 对应的layout id
     public static final int[] TEMPLATE_BABY_LAYOUTS = {
-
+            R.layout.template_baby_0,
+            R.layout.template_baby_1,
+            R.layout.template_baby_2,
+            R.layout.template_baby_3,
     };
 
     // 零售模板的 layout id 对应的layout id
@@ -143,7 +144,7 @@ public class Constant {
             R.layout.template_clothing_1
     };
 
-    // 价签模板的 layout id 对应的layout id
+    // 小票模板的 layout id 对应的layout id
     public static final int[] TEMPLATE_RECEIPT_LAYOUTS = {
 
     };
